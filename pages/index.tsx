@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Layout from "../components/layout";
 import Card from "../components/card";
 import Image from "next/image";
 
@@ -8,7 +7,7 @@ const pageTitle = "taiprogramer's homepage";
 
 const Home: NextPage = () => {
   return (
-    <Layout>
+    <>
       <Head>
         <title>{pageTitle}</title>
         <meta name="description" content={pageTitle} />
@@ -75,7 +74,7 @@ const Home: NextPage = () => {
           </ul>
         </Card>
       </main>
-    </Layout>
+    </>
   );
 };
 
