@@ -62,17 +62,24 @@ const Home: NextPage = () => {
           </ul>
         </Card>
         <Card title="Get in touch">
-          <ul>
-            <li>Email: taiprogramer@protonmail.com</li>
+          <ul className="list-disc">
+            <li>Email: taiprogramer [at] protonmail [dot] com</li>
             <li>
               PGP Key:
-              <a href="/3B724AB7854978609F86E1CC86F68AA27FB152F2.asc">0x3B724AB7854978</a>
+              <a href="/3B724AB7854978609F86E1CC86F68AA27FB152F2.asc"> 0x3B724AB7854978</a>
             </li>
             <li>
-              Telegram:
+              Session (Strongly Recommended):
+              <p className="overflow-x-scroll">
+                05c65a6dfab283225e93a5606c169c1c77d89e9bd198421a55c470b50f33836e0d
+              </p>
+            </li>
+            <li className="line-through">
+              Telegram:{" "}
               <a rel="noopener noreferrer" href="https://t.me/taiprogramer" target="_blank">
                 t.me/taiprogramer
-              </a>
+              </a>{" "}
+              (will be removed after November 05 2021)
             </li>
             <li className="line-through">Facebook</li>
             <li className="line-through">Twitter</li>
