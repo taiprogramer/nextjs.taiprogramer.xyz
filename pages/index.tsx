@@ -2,8 +2,10 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Card from "../components/card";
 import Image from "next/image";
+import Link from "next/link";
 
 const pageTitle = "taiprogramer's homepage";
+const avatarUrl = "https://www.gravatar.com/avatar/5d1c5de71d27a3a3e55f28808ad2ff5a";
 
 const Home: NextPage = () => {
   return (
@@ -11,15 +13,20 @@ const Home: NextPage = () => {
       <Head>
         <title>{pageTitle}</title>
         <meta name="description" content={pageTitle} />
-        <link
-          rel="shortcut icon"
-          href="https://www.gravatar.com/avatar/5d1c5de71d27a3a3e55f28808ad2ff5a"
-          type="image/x-icon"
-        />
+        <link rel="shortcut icon" href={avatarUrl} type="image/x-icon" />
       </Head>
-      <h1 className="p-3 text-center mb-0">{pageTitle}</h1>
-      <p className="text-center">Technology: NextJS, Tailwindcss, Cirrus-ui</p>
-      <main className="p-3 sm:grid sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
+      <h1 className="p-6 text-center mb-0">{pageTitle}</h1>
+      <header className="flex flex-col items-center">
+        <Image
+          alt="profile image"
+          src={`${avatarUrl}?s=300`}
+          height={200}
+          width={200}
+          className="rounded-full"
+        />
+        <p className="mt-6 text-xl">Live, Experiment, Devote</p>
+      </header>
+      <main className="p-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <Card title="Intro">
           <p>
             Hello someone on the internet. When you goto this website, I assume that you want to
@@ -27,6 +34,13 @@ const Home: NextPage = () => {
             simple enough. I want to learn and share my knowledge with the world. I have no
             girlfriend.
           </p>
+        </Card>
+        <Card title="Link">
+          <ul>
+            <li>
+              <Link href="/htql">Ctu - Htql - Login</Link>
+            </li>
+          </ul>
         </Card>
         <Card title="Love">
           <p>
@@ -47,7 +61,6 @@ const Home: NextPage = () => {
             <li>My text editor is neovim.</li>
           </ul>
         </Card>
-        <Card title="Hate">Right now and for no reason, I only hate communism.</Card>
         <Card title="Get in touch">
           <ul>
             <li>Email: taiprogramer@protonmail.com</li>
@@ -73,6 +86,7 @@ const Home: NextPage = () => {
             <Image alt="monero wallet" src="/images/monero.png" width={200} height={200} />
           </ul>
         </Card>
+        <Card title="Hate">Right now and for no reason, I only hate communism.</Card>
       </main>
     </>
   );

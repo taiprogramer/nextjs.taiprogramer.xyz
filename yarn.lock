@@ -728,11 +728,6 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-cirrus-ui@^0.6.2-patch-1:
-  version "0.6.2-patch-1"
-  resolved "https://registry.yarnpkg.com/cirrus-ui/-/cirrus-ui-0.6.2-patch-1.tgz#039d0b5a0c90d81cc5ef3240bd27fcf4c479f9e2"
-  integrity sha512-fjlv1z8mEZPC2PKJeCUE4dxim4vHa7EtqqnN8/CZIn9nS88Oc7AaE8OFtwpwD7jDkDmXW9UV3wnGCaHTQ3pvzQ==
-
 classnames@2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
