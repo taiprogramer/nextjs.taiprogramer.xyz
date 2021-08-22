@@ -40,6 +40,9 @@ const Home: NextPage = () => {
             <li>
               <Link href="/htql">Ctu - Htql - Login</Link>
             </li>
+            <li>
+              <Link href="/poem">Poem - Thơ ca</Link>
+            </li>
           </ul>
         </Card>
         <Card title="Love">

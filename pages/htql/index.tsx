@@ -6,11 +6,11 @@ export default function Htql() {
       <Head>
         <title>Đăng nhập hệ thống quản lý</title>
       </Head>
-      <main className="h-screen bg-blue-100 pt-12 px-auto dark:bg-gray-800">
+      <main className="h-screen bg-blue-100 pt-12 px-auto dark:bg-gray-900">
         <form
           method="post"
           action="https://qldt.ctu.edu.vn/htql/sinhvien/dang_nhap.php"
-          className="p-4 max-w-xs mx-auto shadow-md flex flex-col items-center bg-white rounded-md dark:bg-black dark:bg-opacity-60"
+          className="p-4 max-w-xs mx-auto shadow-md flex flex-col items-center bg-white rounded-md dark:bg-gray-800"
         >
           <h4 className="text-center">Hệ thống quản lý</h4>
           <input
