@@ -1,0 +1,24 @@
+export type HomeTranslation = {
+  pageTitle: string;
+  slogan: string;
+  introTitle: string;
+  introText: string;
+  linkTitle: string;
+  loveTitle: string;
+  loveText: string;
+  systemTitle: string;
+  systemText: string;
+  systemWM: string;
+  systemTerminal: string;
+  systemBrowser: string;
+  systemTextEditor: string;
+  contactTitle: string;
+  emailTitle: string;
+  at: string;
+  dot: string;
+  pgpTitle: string;
+  donation: string;
+  hate: string;
+  hateText: string;
+  recommended: string;
+};
