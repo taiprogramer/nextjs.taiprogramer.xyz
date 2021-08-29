@@ -35,6 +35,7 @@ const t: HomeTranslation = {
   hateText:
     "Ngay bây giờ và không vì bất cứ lý do gì, tôi chỉ ghét chủ nghĩa cộng sản.",
   recommended: "Khuyên dùng",
+  motto: "Tổ quốc - Danh dự - Trách nhiệm",
 };
 
 export default t;

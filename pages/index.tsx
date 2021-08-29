@@ -20,7 +20,7 @@ const Home: NextPage<Props> = (props) => {
         <meta name="description" content={t.pageTitle} />
         <link rel="shortcut icon" href={avatarUrl} type="image/x-icon" />
       </Head>
-      <h1 className="p-6 text-center mb-0">{t.pageTitle}</h1>
+      <h1 className="p-4 text-center mb-0 sm:p-6">{t.pageTitle}</h1>
       <header className="flex flex-col items-center">
         <Image
           alt="profile image"
@@ -30,8 +30,9 @@ const Home: NextPage<Props> = (props) => {
           className="rounded-full"
         />
         <p className="mt-6 text-xl">{t.slogan}</p>
+        <p>{t.motto}</p>
       </header>
-      <main className="p-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <main className="p-4 grid grid-cols-1 gap-6 sm:p-6 sm:grid-cols-2 lg:grid-cols-3">
         <Card title={t.introTitle}>
           <p>{t.introText}</p>
         </Card>

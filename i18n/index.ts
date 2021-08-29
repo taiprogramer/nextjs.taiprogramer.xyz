@@ -21,4 +21,5 @@ export type HomeTranslation = {
   hate: string;
   hateText: string;
   recommended: string;
+  motto: string;
 };

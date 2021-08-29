@@ -34,6 +34,7 @@ We all have reasons to do something. Because I am a simple man, so I use Artix (
   hate: "Hate",
   hateText: "Right now and for no reason, I only hate communism.",
   recommended: "Strongly Recommended",
+  motto: "Country - Honor - Responsibility",
 };
 
 export default t;
