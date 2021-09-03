@@ -44,6 +44,9 @@ const Home: NextPage<Props> = (props) => {
             <li>
               <Link href="/poem">Poem - Thơ ca</Link>
             </li>
+            <li>
+              <Link href="https://tget.taiprogramer.xyz">TGet - knowledge blog</Link>
+            </li>
           </ul>
         </Card>
         <Card title={t.loveTitle}>
