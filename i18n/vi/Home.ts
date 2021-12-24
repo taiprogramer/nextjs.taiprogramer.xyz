@@ -36,6 +36,11 @@ const t: HomeTranslation = {
     "Ngay bây giờ và không vì bất cứ lý do gì, tôi chỉ ghét chủ nghĩa cộng sản.",
   recommended: "Khuyên dùng",
   motto: "Tổ quốc - Danh dự - Trách nhiệm",
+  workTitle: "Công việc",
+  watchMyVideo: "Xem những video của tôi tại",
+  getAllSource:
+    "Bạn có thể xem tất cả các mã của tôi viết trên Codeberg, Gitlab hoặc Github, chỉ cần thêm \"taiprogramer\" vào sau đuôi như",
+  readMyBlog: "Xem những bài viết của tôi tại"
 };
 
 export default t;

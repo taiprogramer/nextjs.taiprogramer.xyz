@@ -22,4 +22,8 @@ export type HomeTranslation = {
   hateText: string;
   recommended: string;
   motto: string;
+  workTitle: string;
+  watchMyVideo: string;
+  getAllSource: string;
+  readMyBlog: string;
 };

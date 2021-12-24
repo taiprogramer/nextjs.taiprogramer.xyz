@@ -61,6 +61,25 @@ const Home: NextPage<Props> = (props) => {
             <li>{t.systemTextEditor}</li>
           </ul>
         </Card>
+        <Card title={t.workTitle}>
+          <p>{t.watchMyVideo}
+              <a rel="noopener noreferrer"
+              href="https://odysee.com/@taiprogramer:5" target="_blank">{" "}
+                odysee.com/@taiprogramer:5
+              </a>
+          </p>
+          <p>{t.getAllSource}
+              <a rel="noopener noreferrer"
+              href="https://codeberg.org/taiprogramer" target="_blank">{" "}
+                codeberg.org/taiprogramer
+              </a>
+          </p>
+          <p>{t.readMyBlog}
+              <a href="http://blog.taiprogramer.xyz/" target="_blank">{" "}
+                txt blog
+              </a>
+          </p>
+        </Card>
         <Card title={t.contactTitle}>
           <ul className="list-disc">
             <li>
@@ -83,19 +102,22 @@ const Home: NextPage<Props> = (props) => {
               </a>{" "}
               (will be removed after November 05 2021)
             </li>
-            <li className="line-through">Facebook</li>
-            <li className="line-through">Twitter</li>
-            <li className="line-through">Zalo</li>
-          </ul>
-        </Card>
-        <Card title={t.donation}>
-          <ul>
-            <li>Sacombank: 070113473868</li>
-            <li>Monero:</li>
-            <Image alt="monero wallet" src="/images/monero.png" width={200} height={200} />
           </ul>
         </Card>
         <Card title={t.hate}>{t.hateText}</Card>
+        <Card title={t.donation}>
+            Sacombank: 070113473868<br />
+            <img className="inline-block" src="/images/xmr.svg" alt="xmr svg"
+            style={{ maxWidth: "1em", maxHeight: "1em"}} /> Monero:<br />
+            <code className="break-words">
+83cWRh1ihhnKN5xWM9eqTriLegJisidUWAMky1wcDv5R7axoryWpd6A59FsCmhhAHXCucZatxheVpKrENdKT2gv41J4Pptk
+            </code><br />
+            <img className="inline-block" src="/images/btc.svg" alt="xmr svg"
+            style={{ maxWidth: "1em", maxHeight: "1em"}} /> Bitcoin:<br />
+            <code className="break-words">
+bc1qql5ak3zvgmg82wdc42azn255njtwdpdjjjaa6g
+            </code><br />
+        </Card>
       </main>
     </>
   );
