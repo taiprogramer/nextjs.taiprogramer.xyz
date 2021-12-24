@@ -75,7 +75,9 @@ const Home: NextPage<Props> = (props) => {
               </a>
           </p>
           <p>{t.readMyBlog}
-              <a href="http://blog.taiprogramer.xyz/" target="_blank">{" "}
+              <a
+              rel="noopener noreferrer"
+              href="http://blog.taiprogramer.xyz/" target="_blank">{" "}
                 txt blog
               </a>
           </p>
