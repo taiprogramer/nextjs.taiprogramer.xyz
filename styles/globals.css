@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "NunitoSans";
+  src: url("/fonts/NunitoSans-Regular.ttf");
+}
+
+* {
+  font-family: "NunitoSans";
+}
+
 @layer base {
   h1 {
     @apply text-5xl;
