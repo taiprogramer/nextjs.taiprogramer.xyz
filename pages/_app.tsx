@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <div className={`${darkMode ? "dark" : ""}`}>
         <div
           id="options"
-          className="sticky top-0 right-0 font-body z-10 bg-white flex justify-between items-center dark:bg-gray-900 dark:text-gray-300 sm:fixed"
+          className="sticky top-0 right-0 font-body z-10 bg-blue-100 text-gray-800 flex justify-between items-center dark:bg-gray-900 dark:text-gray-300 sm:fixed"
         >
           <select
             className="outline-none ml-2 bg-white dark:bg-gray-900 dark:text-gray-300"
@@ -84,7 +84,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             )}
           </button>
         </div>
-        <div className="bg-white dark:bg-gray-900 dark:text-gray-300 font-body min-h-screen overflow-x-hidden">
+        <div className="text-gray-800 bg-blue-100 dark:bg-gray-900 dark:text-gray-300 font-body min-h-screen overflow-x-hidden">
           <Component {...pageProps} />
         </div>
       </div>
