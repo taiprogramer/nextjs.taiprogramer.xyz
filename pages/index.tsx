@@ -5,7 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import type { HomeTranslation } from "../i18n/index";
 
-const avatarUrl = "https://www.gravatar.com/avatar/5d1c5de71d27a3a3e55f28808ad2ff5a";
+const avatarUrl =
+  "https://www.gravatar.com/avatar/5d1c5de71d27a3a3e55f28808ad2ff5a";
 
 type Props = {
   t: HomeTranslation;
@@ -45,7 +46,9 @@ const Home: NextPage<Props> = (props) => {
               <Link href="/poem">Poem - Thơ ca</Link>
             </li>
             <li>
-              <Link href="https://tget.taiprogramer.xyz">TGet - knowledge blog</Link>
+              <Link href="https://tget.taiprogramer.xyz">
+                TGet - knowledge blog
+              </Link>
             </li>
           </ul>
         </Card>
@@ -62,24 +65,38 @@ const Home: NextPage<Props> = (props) => {
           </ul>
         </Card>
         <Card title={t.workTitle}>
-          <p>{t.watchMyVideo}
-              <a rel="noopener noreferrer"
-              href="https://odysee.com/@taiprogramer:5" target="_blank">{" "}
-                odysee.com/@taiprogramer:5
-              </a>
-          </p>
-          <p>{t.getAllSource}
-              <a rel="noopener noreferrer"
-              href="https://codeberg.org/taiprogramer" target="_blank">{" "}
-                codeberg.org/taiprogramer
-              </a>
-          </p>
-          <p>{t.readMyBlog}
-              <a
+          <p>
+            {t.watchMyVideo}
+            <a
               rel="noopener noreferrer"
-              href="http://blog.taiprogramer.xyz/" target="_blank">{" "}
-                txt blog
-              </a>
+              href="https://odysee.com/@taiprogramer:5"
+              target="_blank"
+            >
+              {" "}
+              odysee.com/@taiprogramer:5
+            </a>
+          </p>
+          <p>
+            {t.getAllSource}
+            <a
+              rel="noopener noreferrer"
+              href="https://codeberg.org/taiprogramer"
+              target="_blank"
+            >
+              {" "}
+              codeberg.org/taiprogramer
+            </a>
+          </p>
+          <p>
+            {t.readMyBlog}
+            <a
+              rel="noopener noreferrer"
+              href="http://blog.taiprogramer.xyz/"
+              target="_blank"
+            >
+              {" "}
+              txt blog
+            </a>
           </p>
         </Card>
         <Card title={t.contactTitle}>
@@ -89,7 +106,10 @@ const Home: NextPage<Props> = (props) => {
             </li>
             <li>
               {t.pgpTitle}:
-              <a href="/3B724AB7854978609F86E1CC86F68AA27FB152F2.asc"> 0x3B724AB7854978</a>
+              <a href="/3B724AB7854978609F86E1CC86F68AA27FB152F2.asc">
+                {" "}
+                0x3B724AB7854978
+              </a>
             </li>
             <li>
               Session ({t.recommended}):
@@ -99,7 +119,11 @@ const Home: NextPage<Props> = (props) => {
             </li>
             <li className="line-through">
               Telegram:{" "}
-              <a rel="noopener noreferrer" href="https://t.me/taiprogramer" target="_blank">
+              <a
+                rel="noopener noreferrer"
+                href="https://t.me/taiprogramer"
+                target="_blank"
+              >
                 t.me/taiprogramer
               </a>{" "}
               (will be removed after November 05 2021)
@@ -108,17 +132,34 @@ const Home: NextPage<Props> = (props) => {
         </Card>
         <Card title={t.hate}>{t.hateText}</Card>
         <Card title={t.donation}>
-            Sacombank: 070113473868<br />
-            <Image className="inline-block" src="/images/xmr.svg" alt="xmr svg"
-            width={16} height={16} /> Monero:<br />
-            <code className="break-words">
-83cWRh1ihhnKN5xWM9eqTriLegJisidUWAMky1wcDv5R7axoryWpd6A59FsCmhhAHXCucZatxheVpKrENdKT2gv41J4Pptk
-            </code><br />
-            <Image className="inline-block" src="/images/btc.svg" alt="xmr svg"
-            width={16} height={16} /> Bitcoin:<br />
-            <code className="break-words">
-bc1qql5ak3zvgmg82wdc42azn255njtwdpdjjjaa6g
-            </code><br />
+          Sacombank: 070113473868
+          <br />
+          <Image
+            className="inline-block"
+            src="/images/xmr.svg"
+            alt="xmr svg"
+            width={16}
+            height={16}
+          />{" "}
+          Monero:
+          <br />
+          <code className="break-words">
+            83cWRh1ihhnKN5xWM9eqTriLegJisidUWAMky1wcDv5R7axoryWpd6A59FsCmhhAHXCucZatxheVpKrENdKT2gv41J4Pptk
+          </code>
+          <br />
+          <Image
+            className="inline-block"
+            src="/images/btc.svg"
+            alt="xmr svg"
+            width={16}
+            height={16}
+          />{" "}
+          Bitcoin:
+          <br />
+          <code className="break-words">
+            bc1qql5ak3zvgmg82wdc42azn255njtwdpdjjjaa6g
+          </code>
+          <br />
         </Card>
       </main>
     </>

@@ -38,8 +38,8 @@ We all have reasons to do something. Because I am a simple man, so I use Artix (
   workTitle: "Work",
   watchMyVideo: "Watch my videos at",
   getAllSource:
-    "You can get all my source code on Codeberg, Github or Gitlab, just with suffix \"taiprogramer\" like",
-  readMyBlog: "Read my posts at"
+    'You can get all my source code on Codeberg, Github or Gitlab, just with suffix "taiprogramer" like',
+  readMyBlog: "Read my posts at",
 };
 
 export default t;
