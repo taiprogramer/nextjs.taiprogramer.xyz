@@ -109,13 +109,13 @@ const Home: NextPage<Props> = (props) => {
         <Card title={t.hate}>{t.hateText}</Card>
         <Card title={t.donation}>
             Sacombank: 070113473868<br />
-            <img className="inline-block" src="/images/xmr.svg" alt="xmr svg"
-            style={{ maxWidth: "1em", maxHeight: "1em"}} /> Monero:<br />
+            <Image className="inline-block" src="/images/xmr.svg" alt="xmr svg"
+            width={16} height={16} /> Monero:<br />
             <code className="break-words">
 83cWRh1ihhnKN5xWM9eqTriLegJisidUWAMky1wcDv5R7axoryWpd6A59FsCmhhAHXCucZatxheVpKrENdKT2gv41J4Pptk
             </code><br />
-            <img className="inline-block" src="/images/btc.svg" alt="xmr svg"
-            style={{ maxWidth: "1em", maxHeight: "1em"}} /> Bitcoin:<br />
+            <Image className="inline-block" src="/images/btc.svg" alt="xmr svg"
+            width={16} height={16} /> Bitcoin:<br />
             <code className="break-words">
 bc1qql5ak3zvgmg82wdc42azn255njtwdpdjjjaa6g
             </code><br />
