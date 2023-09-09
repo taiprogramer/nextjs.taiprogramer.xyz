@@ -18,8 +18,6 @@ export type HomeTranslation = {
   dot: string;
   pgpTitle: string;
   donation: string;
-  hate: string;
-  hateText: string;
   recommended: string;
   motto: string;
   workTitle: string;

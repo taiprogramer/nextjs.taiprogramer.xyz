@@ -130,7 +130,6 @@ const Home: NextPage<Props> = (props) => {
             </li>
           </ul>
         </Card>
-        <Card title={t.hate}>{t.hateText}</Card>
         <Card title={t.donation}>
           Sacombank: 070113473868
           <br />

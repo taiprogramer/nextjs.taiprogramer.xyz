@@ -31,8 +31,6 @@ We all have reasons to do something. Because I am a simple man, so I use Artix (
   dot: "dot",
   pgpTitle: "PGP Key",
   donation: "Donation",
-  hate: "Hate",
-  hateText: "Right now and for no reason, I only hate communism.",
   recommended: "Strongly Recommended",
   motto: "Country - Honor - Responsibility",
   workTitle: "Work",
