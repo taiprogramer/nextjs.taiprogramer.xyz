@@ -8,7 +8,7 @@ const PoemPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Thơ của Tài mỗi ngày - ({`${poem.id}/${poems.length}`})</title>
+        <title>{`Thơ của Tài mỗi ngày - (${poem.id}/${poems.length})`}</title>
       </Head>
       <main className="min-h-screen bg-blue-100 dark:bg-gray-900 py-6 flex items-center justify-center">
         <section className="max-w-sm bg-white whitespace-pre-line dark:bg-gray-800 rounded-lg shadow-lg p-6">
